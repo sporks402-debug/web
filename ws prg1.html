@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>St. Xavier College of Engineering</title>
+<style>
+  :root { --primary: #1b3a5c; --accent: #ff8a00; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Georgia, serif; margin: 0; background: #f4f6f8; color: #222; }
+  header { background: linear-gradient(135deg, var(--primary), #2f5f8f); color: #fff; padding: 30px; text-align: center; }
+  header h1 { margin: 0; font-size: 2.3em; }
+  nav { background: #274b73; position: sticky; top: 0; z-index: 10; }
+  nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; }
+  nav ul li a { display: block; padding: 14px 22px; color: #fff; text-decoration: none; font-weight: bold; transition: 0.3s; }
+  nav ul li a:hover { background: var(--accent); }
+  details { max-width: 900px; margin: 15px auto; background: #fff; padding: 15px 20px; border-radius: 8px; }
+  summary { cursor: pointer; font-weight: bold; color: var(--primary); }
+  section { max-width: 900px; margin: 20px auto; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.1); }
+  h2 { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+  table, th, td { border: 1px solid #ccc; }
+  th, td { padding: 10px; text-align: left; }
+  th { background: #e8edf3; }
+  figure { text-align: center; margin: 20px 0; }
+  figcaption { font-style: italic; color: #666; }
+  progress { width: 100%; height: 18px; }
+  footer { background: var(--primary); color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>St. Xavier College of Engineering</h1>
+  <p>Empowering Minds, Building Futures</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#placements">Placements</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>St. Xavier College of Engineering, established in <time datetime="1985">1985</time>, is a premier
+  AICTE-approved institution dedicated to academic excellence and innovation.</p>
+  <figure>
+    <img src="https://via.placeholder.com/700x250?text=Campus+View" alt="College campus" style="max-width:100%;border-radius:8px;">
+    <figcaption>Main Campus Building</figcaption>
+  </figure>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <details>
+    <summary>Our Vision</summary>
+    <p>To be a globally recognized center of excellence in engineering education and research.</p>
+  </details>
+  <details>
+    <summary>Our Mission</summary>
+    <p>To nurture innovative, ethical, and industry-ready engineers.</p>
+  </details>
+</section>
+
+<section id="courses">
+  <h2>Courses Offered</h2>
+  <table>
+    <tr><th>Department</th><th>Duration</th><th>Intake</th></tr>
+    <tr><td>Computer Science &amp; Engineering</td><td>4 Years</td><td>120</td></tr>
+    <tr><td>Electronics &amp; Communication</td><td>4 Years</td><td>60</td></tr>
+    <tr><td>Mechanical Engineering</td><td>4 Years</td><td>60</td></tr>
+  </table>
+</section>
+
+<section id="placements">
+  <h2>Placement Record 2026</h2>
+  <p>CSE Department Placement: 92%</p>
+  <progress value="92" max="100"></progress>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <address>
+    123 College Road, Chennai - 600001<br>
+    Phone: +91-44-12345678<br>
+    Email: <a href="mailto:info@stxavier.edu">info@stxavier.edu</a>
+  </address>
+</section>
+
+<footer>&copy; 2026 St. Xavier College of Engineering. All rights reserved.</footer>
+</body>
+</html>
